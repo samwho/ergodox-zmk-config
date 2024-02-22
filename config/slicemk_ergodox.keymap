@@ -35,14 +35,14 @@
 		layer_0 {
 			bindings = <
 				&bootloader
-				&kp ESC   &kp   NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp C_PLAY_PAUSE   &kp OBS        &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0          AS(EQUAL)
-				&kp TAB         AS(Q)        AS(W)        AS(E)        AS(R)        AS(T)    &kp LBRC           &kp RBRC       AS(Y)        AS(U)        AS(I)        AS(O)        AS(P)             AS(MINUS)
-				&kp TAB         AS(A)        AS(S)        AS(D)        AS(F)        AS(G)                                      AS(H)        AS(J)        AS(K)        AS(L)        AS(SEMICOLON)     AS(SQT)
-				&kp LCMD  &rpi  RCTRL Z      AS(X)        AS(C)        AS(V)        AS(B)    &kp RBKT           &kp LBKT       AS(N)        AS(M)        AS(CMMA)     AS(DOT)      AS(FSLH)          AS(BSLH)
-				&kp GRAVE &none          &kp LALT     &kp LARW     &kp PSCRN                                                            &kp LARW     &kp DARW     &kp UARW     &kp RARW          &to 3
-				                                                                &kp SPC      &kp HOME           &kp END    &kp INS
-				                                                   &kp SPC      &kp BSPC     &kp PGUP           &kp RET    &kp SPC      &kp RET
-				                                                                             &kp LSHFT          &mo 1
+				&kp ESC   &kp   NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5   &kp C_PLAY_PAUSE   &kp OBS        &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0          AS(EQUAL)
+				&kp TAB         AS(Q)        AS(W)        AS(E)        AS(R)        AS(T)      &kp LBRC           &kp RBRC       AS(Y)        AS(U)        AS(I)        AS(O)        AS(P)             AS(MINUS)
+				&kp TAB         AS(A)        AS(S)        AS(D)        AS(F)        AS(G)                                        AS(H)        AS(J)        AS(K)        AS(L)        AS(SEMICOLON)     AS(SQT)
+				&kp LCMD  &rpi  RCTRL Z      AS(X)        AS(C)        AS(V)        AS(B)      &kp RBKT           &kp LBKT       AS(N)        AS(M)        AS(CMMA)     AS(DOT)      AS(FSLH)          AS(BSLH)
+				&kp GRAVE &none          &kp LALT     &kp LARW     &kp PSCRN                                                              &kp LARW     &kp DARW     &kp UARW     &kp RARW          &to 3
+				                                                                &bt BT_CLR_ALL &kp HOME           &kp END    &kp INS
+				                                                   &kp SPC      &kp BSPC       &kp PGUP           &kp RET    &kp SPC      &kp RET
+				                                                                               &kp LSHFT          &mo 1
 			>;
 		};
 	};
