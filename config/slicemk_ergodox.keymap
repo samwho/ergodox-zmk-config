@@ -23,14 +23,14 @@
 		layer_0 {
 			bindings = <
 				&bootloader
-				&kp ESC   &kp NUMBER_1    &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp PRSC   &none      &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0          &kp K_APP
-				&kp TAB   &kp AS(Q)       &kp AS(W)    &kp AS(E)    &kp AS(R)    &kp AS(T)    &kp LBRC   &kp RBRC   &kp AS(Y)    &kp AS(U)    &kp AS(I)    &kp AS(O)    &kp AS(P)         &kp AS(BSLH)
-				&kp TAB   &kp AS(A)       &kp AS(S)    &kp AS(D)    &kp AS(F)    &kp AS(G)                          &kp AS(H)    &kp AS(J)    &kp AS(K)    &kp AS(L)    &kp AS(SEMICOLON) &kp AS(BKSP)
-				&kp LCMD  &ht_hp RCTRL Z  &kp AS(X)    &kp AS(C)    &kp AS(V)    &kp AS(B)    &kp RBKT   &kp LBKT   &kp AS(N)    &kp AS(M)    &kp CMMA     &kp DOT      &kp AS(FSLH)      &mo 2
-				&kp GRAVE &none           &kp LALT     &kp LARW     &kp PSCRN                                                    &kp LARW     &kp DARW     &kp UARW     &kp RARW          &to 3
-				                                                                 &kp SPC      &kp HOME   &kp END    &kp INS
-				                                                    &kp SPC      &kp BSPC     &kp PGUP   &kp RET    &kp SPC      &kp LGUI
-				                                                                              &kp LSHFT  &mo 1
+				&kp ESC   &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp PRSC   &none      &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0      &kp AS(EQUAL)
+				&kp TAB   &kp AS(Q)    &kp AS(W)    &kp AS(E)    &kp AS(R)    &kp AS(T)    &kp LBRC   &kp RBRC   &kp AS(Y)    &kp AS(U)    &kp AS(I)    &kp AS(O)    &kp AS(P)         &kp AS(MINUS)
+				&kp TAB   &kp AS(A)    &kp AS(S)    &kp AS(D)    &kp AS(F)    &kp AS(G)                          &kp AS(H)    &kp AS(J)    &kp AS(K)    &kp AS(L)    &kp AS(SEMICOLON) &kp AS(SQT)
+				&kp LCMD  &ht RCTRL Z  &kp AS(X)    &kp AS(C)    &kp AS(V)    &kp AS(B)    &kp RBKT   &kp LBKT   &kp AS(N)    &kp AS(M)    &kp CMMA     &kp DOT      &kp AS(FSLH)      &mo AS(BSLH)
+				&kp GRAVE &none        &kp LALT     &kp LARW     &kp PSCRN                                                    &kp LARW     &kp DARW     &kp UARW     &kp RARW          &to 3
+				                                                              &kp SPC      &kp HOME   &kp END    &kp INS
+				                                                 &kp SPC      &kp BSPC     &kp PGUP   &kp RET    &kp SPC      &kp RET
+				                                                                           &kp LSHFT  &mo 1
 			>;
 		};
 	};
