@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
-#define OBS LA(LS(LC(LG(O))))
+#define OBS RA(RS(RC(RG(O))))
 
 / {
 	behaviors {
@@ -12,8 +12,7 @@
 			  label = "as";
 				compatible = "zmk,behavior-hold-tap";
 				#binding-cells = <2>;
-				tapping_term_ms = <135>;
-				quick_tap_ms = <0>;
+				tapping_term_ms = <140>;
 				flavor = "tap-preferred";
 				bindings = <&kp>, <&kp>;
 		};
