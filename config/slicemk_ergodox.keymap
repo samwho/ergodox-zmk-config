@@ -39,7 +39,7 @@
 				&kp TAB         AS(A)        AS(S)        AS(D)        AS(F)        AS(G)                                        AS(H)        AS(J)        AS(K)        AS(L)        AS(SEMICOLON)     AS(SQT)
 				&kp LCMD  &rpi  RCTRL Z      AS(X)        AS(C)        AS(V)        AS(B)      &kp RBKT           &kp LBKT       AS(N)        AS(M)        AS(CMMA)     AS(DOT)      AS(FSLH)          AS(BSLH)
 				&kp GRAVE       &none        &kp LALT     &kp LARW     &kp PSCRN                                                          &kp LARW     &kp DARW     &kp UARW     &kp RARW          &to 1
-				                                                                &kp BT_NXT     &kp BT_CLR         &kp END    &kp INS
+				                                                                &bt BT_NXT     &bt BT_CLR         &kp END    &kp INS
 				                                                   &kp SPC      &kp BSPC       &kp PGUP           &kp RET    &kp SPC      &kp RET
 				                                                                               &kp LSHFT          &mo 1
 			>;
@@ -53,7 +53,7 @@
 				&kp TAB        &kp A        &kp S        &kp D        &kp F        &kp G                                        &kp H        &kp J        &kp K        &kp L        &kp SEMICOLON     &kp SQT
 				&kp LCMD  &rpi RCTRL Z      &kp X        &kp C        &kp V        &kp B      &kp RBKT           &kp LBKT       &kp N        &kp M        &kp CMMA     &kp DOT      &kp FSLH          &kp BSLH
 				&kp GRAVE      &none        &kp LALT     &kp LARW     &kp PSCRN                                                          &kp LARW     &kp DARW     &kp UARW     &kp RARW          &to 0
-				                                                                &kp BT_NXT     &kp BT_CLR         &kp END    &kp INS
+				                                                                &bt BT_NXT     &bt BT_CLR         &kp END    &kp INS
 				                                                   &kp SPC      &kp BSPC       &kp PGUP           &kp RET    &kp SPC      &kp RET
 				                                                                               &kp LSHFT          &mo 1
 			>;
